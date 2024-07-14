@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 public class DepartmentController {
     private DepartmentService departmentService;
 
+
     //Build save department REST API
     @PostMapping
     public ResponseEntity<DepartmentDto> saveDepartment(@RequestBody DepartmentDto departmentDto){
