@@ -1,6 +1,7 @@
 package com.javaguides.department_service.service;
 
 import com.javaguides.department_service.dto.DepartmentDto;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

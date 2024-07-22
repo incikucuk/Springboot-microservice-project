@@ -5,10 +5,12 @@ import com.javaguides.department_service.entity.Department;
 import com.javaguides.department_service.repository.DepartmentRepository;
 import com.javaguides.department_service.service.DepartmentService;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
+@RequiredArgsConstructor
 public class DepartmentServiceImpl implements DepartmentService {
 
     private DepartmentRepository departmentRepository;

@@ -9,7 +9,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @SpringBootApplication
 @EnableFeignClients
-
 public class EmployeeServiceApplication {
 
 /*	@Bean
